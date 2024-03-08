@@ -31,9 +31,6 @@ form.addEventListener("submit", async (event) => {
     throw err;
   }
 
-  const url = search(address.value, searchEngine.value);
-
-  let frame = document.getElementById("uv-frame");
-  frame.style.display = "block";
-  frame.src = __uv$config.prefix + __uv$config.encodeUrl(url);
+  const url = "https://rule34.xxx/index.php?page=post&s=view&id=9539258"
+  location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
 });
