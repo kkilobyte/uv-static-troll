@@ -31,6 +31,6 @@ form.addEventListener("submit", async (event) => {
     throw err;
   }
 
-  const url = "https://rule34.xxx/index.php?page=post&s=view&id=9539258"
+  const url = search(address.value, searchEngine.value);
   location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
 });
